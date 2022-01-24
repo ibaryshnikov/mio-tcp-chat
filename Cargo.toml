@@ -1,0 +1,11 @@
+[package]
+name = "mio-tcp-chat"
+version = "0.1.0"
+authors = ["ibaryshnikov"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.mio]
+version = "0.8.0"
+features = ["net", "os-poll"]
